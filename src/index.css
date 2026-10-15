@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    overscroll-behavior-y: none;
+  }
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.5);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.7);
+}

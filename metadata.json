@@ -1,0 +1,6 @@
+{
+  "name": "AbsenKu HR - Sistem Absensi & Manajemen Karyawan Mobile",
+  "description": "Aplikasi absensi online mobile-friendly untuk karyawan dan HR dengan validasi email, upload PDF hasil kerja, grafik performa 30 hari & 12 bulan, rekap ketidakhadiran, dan notifikasi pengingat otomatis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
